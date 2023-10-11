@@ -35,3 +35,24 @@
     transform: translateX(-100%);
   }
 }
+
+/* MEDIA */
+
+@media screen and (min-width: 768px) {
+  .advertisement-container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .advertisement-line {
+    font-size: 40px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advertisement-line {
+    font-size: 59px;
+    line-height: 1.08;
+  }
+}
