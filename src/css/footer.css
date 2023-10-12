@@ -1,0 +1,66 @@
+.footer {
+  padding-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  background-image: url(../img/background-img.webp);
+  background-position: 331px 217px;
+  background-size: cover;
+}
+.footer-logo {
+  fill: var(--c-brand);
+  margin-bottom: 16px;
+}
+.footer-contact {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.28;
+  margin-bottom: 40px;
+}
+.footer-address-tel {
+  margin-bottom: 6px;
+}
+.footer-social {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 75px;
+}
+.footer-link {
+  font-size: 14px;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.footer-social-section {
+  display: flex;
+  gap: 40px;
+}
+.footer-input {
+  padding: 20px 0 20px 18px;
+  border-radius: 12px;
+  max-width: 267px;
+  max-height: 60px;
+  margin-right: 8px;
+  margin-bottom: 40px;
+}
+.footer-button {
+  background-color: var(--c-background-light);
+  padding: 18px 17px 18px 16px;
+  color: var(--c-brand);
+  border-radius: 12px;
+  width: 60px;
+  height: 60px;
+}
+.footer-text-policy {
+  font-size: 12px;
+  line-height: 1.33;
+}
+.footer-wrapper-policy {
+  display: flex;
+  gap: 99px;
+  margin-bottom: 20px;
+}
