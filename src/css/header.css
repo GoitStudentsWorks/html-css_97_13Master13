@@ -1,3 +1,27 @@
+.header{
+  width: 335px;
+  height: 50px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  background: var(--black, #121212);
+  
+}
+
 .header-logo {
   fill: var(--c-brand);
+  padding: 15, 188, 15, 20;
+}
+
+.header-arrow{
+width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  fill: #1D1D1D;
+}
+
+.header-camera{
+  width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    fill: #BEA69E66;
 }
