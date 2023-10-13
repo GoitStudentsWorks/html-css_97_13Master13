@@ -1,0 +1,132 @@
+
+.about-title{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.04em;
+    margin-bottom: 20px;
+}
+.about-span{
+    color: var(--c-primary);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.04em;;
+}
+
+.about-image{
+    margin-bottom: 40px;
+    border-radius: 1000px;
+    margin-bottom: 40px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-text{
+    width: 335px;
+    font-size: 14px;
+    line-height: 1.28; 
+    /* letter-spacing: 0.02em; */
+}
+
+.about-text:not(:last-child){
+    margin-bottom: 20px;
+}
+
+
+/* !!!!!!! Tablet site !!!!!!!!! */
+
+@media screen and (min-width: 768px) {
+    .container {
+        min-width:  768px;
+    }
+
+.about-us{
+    margin-left: 32px;
+    margin-right: 32px;
+    }  
+
+.about-title{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12; 
+    letter-spacing: 0.04em;
+    margin-bottom: 50px;
+    }
+
+.about-span{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: 0.04em;
+}
+
+.about-image{
+    margin-bottom: 50px;
+}    
+
+.about-move{
+    display: flex;
+    gap: 40px;
+    }
+
+.about-text{
+    width: 280px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25; 
+    letter-spacing: 0.02em;
+    }
+}
+
+
+/* !!!!!!!!!!  Desktop site !!!!!!!!!!!!   */
+
+@media screen and (min-width: 1280px){
+
+.container {
+    min-width: 1280px;
+}    
+
+.about-us{
+    margin-left: 100px;
+    margin-right: 100px;
+}  
+
+.about-container{
+    display: flex;
+    gap: 40px;
+}
+
+.about-title{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: 0.04em;
+}
+
+.about-span{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0.04em;
+}
+
+.about-move{
+    margin-bottom: 0;
+}
+
+.about-text{
+    width: 268.2px;
+}
+
+.about-image{ 
+    width: 488px;
+    height: 260px;
+    margin-bottom: 0;
+}
+
+}
+
