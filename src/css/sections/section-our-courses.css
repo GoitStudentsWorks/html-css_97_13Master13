@@ -4,7 +4,7 @@
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: 0.04;
+  letter-spacing: -0.02em;
   margin-bottom: 20px;
 }
 .courses {
@@ -14,9 +14,7 @@
   color: var(--c-brand);
   font-size: 14px;
   line-height: 1.28;
-  letter-spacing: 0.02em;
-  max-width: 335px;
-  width: 100%;
+  letter-spacing: -0.02em;
   margin-bottom: 40px;
 }
 .courses-list {
@@ -34,8 +32,6 @@
 .courses-li {
   padding: 28px;
   max-width: 335px;
-  width: 100%;
-  width: 100%;
   flex-shrink: 0;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -62,12 +58,10 @@
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
-  width: 100%;
   margin-top: 42px;
   margin-bottom: 164px;
 }
 .courses-link-text {
-  max-width: 279px;
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   line-height: 1.28;
