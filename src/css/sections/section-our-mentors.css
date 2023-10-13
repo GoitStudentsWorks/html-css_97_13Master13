@@ -42,7 +42,9 @@
     line-height: 1.2;
     margin-bottom: 4px;
 }
-
+.mentor-mia {
+    white-space: nowrap;
+}
 .mentors-experience {
     color: rgba(255, 255, 255, 0.50);
     font-weight: 400;
@@ -80,9 +82,7 @@
         letter-spacing: 0.01em;
         text-align: center;
     }
-    .mentor-mia {
-        letter-spacing: 0.01em;
-    }
+   
     .mentors-experience {
         font-size: 14px;
         font-weight: 400;
@@ -105,8 +105,6 @@
     .mentors-foto {
         margin: 0;
     }
-    .mentor-mia {
-        white-space: nowrap;
-    }
+    
 }
 
