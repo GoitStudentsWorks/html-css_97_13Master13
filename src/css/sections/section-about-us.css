@@ -3,15 +3,15 @@
     font-size: 28px;
     font-weight: 500;
     line-height: 1.14;
-    letter-spacing: 0.04em;
-    margin-bottom: 20px;
+    letter-spacing: -0.04em;
+    margin-bottom: 40px;
 }
 .about-span{
     color: var(--c-primary);
     font-size: 28px;
     font-weight: 500;
     line-height: 1.14;
-    letter-spacing: 0.04em;;
+    letter-spacing: -0.04em;
 }
 
 .about-image{
@@ -51,7 +51,7 @@
     font-size: 48px;
     font-weight: 500;
     line-height: 1.12; 
-    letter-spacing: 0.04em;
+    letter-spacing: -0.04em;
     margin-bottom: 50px;
     }
 
@@ -59,7 +59,7 @@
     font-size: 48px;
     font-weight: 500;
     line-height: 1.12;
-    letter-spacing: 0.04em;
+    letter-spacing: -0.04em;
 }
 
 .about-image{
