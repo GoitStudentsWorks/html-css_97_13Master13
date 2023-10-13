@@ -1,6 +1,7 @@
 .hero {
     border-radius: 30px;
     background-color: #1D1D1D;
+    padding: 40px 20px 0;
 }
 
 .hero-header {
@@ -29,6 +30,42 @@
     font-weight: 400;
     line-height: 1.28;
     letter-spacing: -0.02em;
+    margin-bottom: 40px;
+}
+
+.hero-student-review-wrap {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 31px;
+}
+
+.hero-students-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hero-students-flex {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.hero-students-list {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.hero-students-li {
+    margin-left: -15px;
+}
+
+.hero-students-li:nth-child(1) {
+    z-index: 999;
+}
+
+.hero-students-li:nth-child(2) {
+    z-index: 10;
 }
 
 .hero-students-text {
@@ -43,9 +80,10 @@
 
 .hero-reviews-wrap {
     display: flex;
+    gap: 12px;
     justify-content: center;
-    align-items: center;
 }
+
 .hero-reviews {
     color: rgba(255, 255, 255, 0.50);
     font-family: DM Sans;
@@ -54,6 +92,7 @@
     font-weight: 400;
     line-height: 1.28;
     letter-spacing: -0.04em;
+    margin-bottom: 4px;
 }
 
 .hero-number {
@@ -64,4 +103,17 @@
     font-weight: 500;
     line-height: 1.28;
     letter-spacing: -0.04em;
+}
+
+.hero-star-svg {
+    fill: #121212;
+    flex-shrink: 0;
+    background-color: #BEA69E;
+    border-radius: 50%;
+    padding: 12px;
+    stroke: none;
+}
+
+.hero-main-img {
+    margin: 0 auto;
 }
