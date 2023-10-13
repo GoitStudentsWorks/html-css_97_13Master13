@@ -113,6 +113,18 @@
         letter-spacing: 0.04em;
     }
     
-    /* !!!!!!! */
+    .about-move{
+        margin-bottom: 0;
+    }
+    
+    .about-text{
+        width: 268.2px;
+    }
+    
+    .about-image{ 
+        width: 488px;
+        height: 260px;
+        margin-bottom: 0;
+    }
     
     }
