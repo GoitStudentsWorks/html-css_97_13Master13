@@ -36,3 +36,47 @@
 }
 
 
+/* !!!!!!! Tablet site !!!!!!!!! */
+
+@media screen and (min-width: 768px) {
+    .container {
+        min-width:  768px;
+    }
+
+.about-us{
+    margin-left: 32px;
+    margin-right: 32px;
+    }  
+
+.about-title{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12; 
+    letter-spacing: 0.04em;
+    margin-bottom: 50px;
+    }
+
+.about-span{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: 0.04em;
+}
+
+.about-image{
+    margin-bottom: 50px;
+}    
+
+.about-move{
+    display: flex;
+    gap: 40px;
+    }
+
+.about-text{
+    width: 280px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25; 
+    letter-spacing: 0.02em;
+    }
+}
