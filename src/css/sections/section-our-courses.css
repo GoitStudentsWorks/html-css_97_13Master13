@@ -1,5 +1,4 @@
 .courses-name {
-  color: var(--c-brand);
   font-family: DM Sans;
   font-size: 28px;
   font-weight: 500;
@@ -11,7 +10,6 @@
   color: var(--c-primary);
 }
 .courses-text {
-  color: var(--c-brand);
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.02em;
@@ -42,9 +40,6 @@
   margin-bottom: 20px;
 }
 .courses-link {
-  display: block;
-}
-.courses-svg {
   position: absolute;
   top: 28px;
   right: 28px;
@@ -52,9 +47,17 @@
   border-radius: 50%;
   width: 32px;
   height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.courses-svg {
+  width: 20px;
+  height: 20px;
+  stroke: rgba(119, 119, 119, 1);
+}
+
 .courses-link-name {
-  color: var(--c-brand);
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
