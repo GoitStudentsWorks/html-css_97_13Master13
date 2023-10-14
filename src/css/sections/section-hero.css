@@ -116,7 +116,8 @@
 }
 
 .hero-star-svg {
-    fill: #121212;
+    stroke: #121212;
+    fill: none;    
     flex-shrink: 0;
     background-color: #BEA69E;
     border-radius: 50%;
