@@ -58,3 +58,26 @@ section {
 .none {
   display: none;
 }
+
+@media screen and (min-width:768px) {
+section{
+  margin-bottom: 100px;
+}
+.container{
+  min-width: 768px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-right: 0;
+}
+}
+
+@media screen  and (min-width:1280px){
+section{
+  margin-bottom: 150px;
+}  
+.container{
+  min-width: 1280px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+}
