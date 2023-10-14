@@ -1,7 +1,4 @@
-.hero {
-    
-    padding: 40px 20px 0;
-}
+.hero {padding: 40px 20px 0;}
 
 .hero-additional {
     border-radius: 30px;
@@ -62,17 +59,11 @@
     margin-left: 15px;
 }
 
-.hero-students-li {
-    margin-left: -15px;
-}
+.hero-students-li {margin-left: -15px;}
 
-.hero-students-li:nth-child(1) {
-    z-index: 999;
-}
+.hero-students-li:nth-child(1) {z-index: 999;}
 
-.hero-students-li:nth-child(2) {
-    z-index: 10;
-}
+.hero-students-li:nth-child(2) {z-index: 10;}
 
 .hero-students-text {
     color: #FFF;
@@ -84,9 +75,7 @@
     letter-spacing: -0.04em;
 }
 
-.hero-arrow-svg {
-    fill: #FFF;
-}
+.hero-arrow-svg {fill: #FFF;}
 
 .hero-reviews-wrap {
     display: flex;
@@ -126,6 +115,4 @@
     height: 44px;
 }
 
-.hero-main-img {
-    margin: 0 auto;
-}
+.hero-main-img {margin: 0 auto;}
