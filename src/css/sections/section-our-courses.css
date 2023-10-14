@@ -82,7 +82,7 @@
   .courses-name {
     font-size: 48px;
     line-height: 1.12;
-    letter-spacing: -0.04em;
+    letter-spacing: 0.01em;
   }
   .courses-text {
     max-width: 381px;
@@ -118,7 +118,6 @@
     line-height: 1.25;
   }
 }
-
 @media screen and (min-width: 1280px) {
   .courses-text {
     max-width: 405px;
