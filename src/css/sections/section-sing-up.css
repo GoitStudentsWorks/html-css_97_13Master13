@@ -70,9 +70,9 @@
 .privacy-link {
   text-decoration: underline;
 }
-/* .picture-block {
+.picture-block {
   display: none;
-} */
+}
 /* TABLET */
 @media (min-width: 768px) {
   .container {
@@ -138,14 +138,19 @@
 /* DESKTOP */
 @media (min-width: 1280px) {
   .container {
+    gap: 60px;
     min-width: 1280px;
     width: 1280px;
     padding: 0 100px;
     display: flex;
   }
+  .privacy-text {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+  }
   .field-container {
     max-width: 480px;
-    padding-left: 100px;
   }
   .picture-list {
     display: flex;
@@ -153,6 +158,7 @@
     align-items: flex-end;
   }
   .picture-block {
+    display: block;
     max-width: 540px;
   }
   .signup-lens {
@@ -160,10 +166,16 @@
     border-radius: 1000px;
     width: 180px;
     height: 288px;
+    position: relative;
   }
   .lens-img {
-    width: 150px;
-    height: 142px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-65%, -40%);
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
   }
   .signup-nikon {
     background-color: var(--c-background-light);
@@ -172,7 +184,9 @@
     height: 540px;
   }
   .nikon-img {
-    width: 240px;
-    height: 296px;
+    margin-top: 139px;
+    margin-right: 48px;
+    margin-left: 48px;
+    margin-bottom: 88px;
   }
 }
