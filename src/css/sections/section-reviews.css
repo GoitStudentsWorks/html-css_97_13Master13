@@ -1,8 +1,7 @@
+/* Reviews Section */
 .reviews-section-headline {
-  width: 171px;
-  height: 54px;
   color: #fff;
-  font-family: DM Sans;
+  font-family: DM Sans, sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
@@ -12,6 +11,7 @@
 }
 .reviews-list {
   display: flex;
+  gap: 20px;
 }
 .reviews-list-item {
   width: 610px;
@@ -19,21 +19,31 @@
   flex-shrink: 0;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  margin-right: 20px;
+}
+.reviews-list-item-second {
+  width: 610px;
+  height: 196px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 .reviews-list-picture {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
-
+.reviews-list-img {
+}
 .reviews-wrapper {
-  margin-left: 10px;
 }
 .reviews-wrapper-name {
   color: #fff;
-  font-family: DM Sans;
+
+  font-family: DM Sans, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -42,7 +52,7 @@
 }
 .reviews-wrapper-work {
   color: rgba(255, 255, 255, 0.5);
-  font-family: DM Sans;
+  font-family: DM Sans, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -53,20 +63,41 @@
   display: flex;
   margin-left: 243px;
 }
-.reviews-wrapper-comments {
-  width: 570px;
-  color: #fff;
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px; /* 125% */
-  letter-spacing: -0.32px;
-  margin: 0 auto;
-}
 .reviews-list-icon-star {
   fill: #bea69e;
 }
 .reviews-list-icon-star-5 {
   fill: #414141;
+}
+.reviews-wrapper-comments {
+  width: 570px;
+  color: #fff;
+  font-family: DM Sans, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.32px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+/* MEDIA */
+
+@media screen and (min-width: 468px) {
+  .reviews-list-item {
+    width: 640px;
+    height: 196px;
+    flex-shrink: 0;
+  }
+  .reviews-list-item-second {
+    display: none;
+  }
+}
+@media screen and (max-width: 1157px) {
+  .reviews-list-item-second {
+    display: none;
+  }
+}
+@media screen and (min-width: 1158px) {
 }
