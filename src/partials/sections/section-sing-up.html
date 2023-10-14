@@ -1,3 +1,78 @@
-<section class="sing-up">
-  <div class="container"></div>
+<section class="sign-up section">
+  <div class="sign-up container">
+    <div class="field-container">
+      <h2 class="sign-up-title">Sign <span class="title-up">Up</span></h2>
+      <p class="sign-up-text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <div class="field-block">
+        <label class="sign-up-label" for="user-name"> </label>
+        <div class="field-subblock">
+          <input
+            type="text"
+            name="user-name"
+            id="user-name"
+            class="sign-up-field"
+            autocomplete="off"
+            placeholder="Enter your name"
+          />
+        </div>
+      </div>
+      <div class="field-block">
+        <label class="sign-up-label" for="email"> </label>
+        <div class="field-subblock">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="sign-up-field"
+            autocomplete="off"
+            placeholder="Enter your email"
+          />
+        </div>
+      </div>
+      <div class="textarea-block">
+        <label class="sign-up-label" for="user-comment"> </label>
+        <textarea
+          name="user-comment"
+          id="user-comment"
+          rows="8"
+          class="sign-up-textarea"
+          placeholder="Message"
+        ></textarea>
+      </div>
+      <button type="submit" class="sign-up-button">SEND</button>
+      <p class="privacy-text">
+        By clicking on “Send” button you agree to our
+        <a href="#" class="privacy-link">Privacy Policy</a>,<br />
+        and allow Promodo to use this information for marketing purposes.
+      </p>
+    </div>
+    <div class="picture-block">
+      <ul class="picture-list">
+        <li class="signup-lens">
+          <img
+            class="lens-img"
+            srcset="
+              /img/section-sing-up/lens.webp    1x,
+              /img/section-sing-up/lens@2x.webp 2x
+            "
+            alt="img-lens"
+          />
+        </li>
+
+        <li class="signup-nikon">
+          <img
+            class="nikon-img"
+            srcset="
+              /img/section-sing-up/camera-nikon.webp    1x,
+              /img/section-sing-up/camera-nikon@2x.webp 2x
+            "
+            alt="img-camera-nikon"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
 </section>

@@ -1,0 +1,192 @@
+/* MOBILE */
+.sign-up-title {
+  color: var(--c-brand);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -1.12px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.title-up {
+  color: var(--c-primary);
+}
+.sign-up-text {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  padding-right: 40px;
+  padding-bottom: 41px;
+}
+.sign-up-field {
+  font-size: 14px;
+  width: 100%;
+  height: 46px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding-left: 18px;
+  outline: transparent;
+  background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 8px;
+}
+.sign-up-textarea {
+  width: 100%;
+  height: 112px;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  background-color: transparent;
+  padding: 14px 18px;
+  outline: transparent;
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 40px;
+}
+.sign-up-button {
+  width: 100%;
+  height: 48px;
+  border-radius: 12px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.sign-up-button:hover,
+.sign-up-button:focus {
+  background-color: var(--c-background-light);
+  color: var(--c-primary);
+}
+.privacy-text {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: left;
+}
+.privacy-link {
+  text-decoration: underline;
+}
+.picture-block {
+  display: none;
+}
+/* TABLET */
+@media (min-width: 768px) {
+  .container {
+    min-width: 768px;
+    width: 768px;
+  }
+  .field-container {
+    max-width: 480px;
+  }
+  .sign-up-title {
+    font-size: 48px;
+    line-height: 1.12;
+    letter-spacing: -0em;
+  }
+  .sign-up-text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    padding-right: 0;
+    padding-bottom: 40px;
+  }
+  .sign-up-field {
+    font-size: 16px;
+    width: 100%;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding-left: 18px;
+    outline: transparent;
+    background-color: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 14px;
+  }
+  .sign-up-textarea {
+    width: 100%;
+    height: 119px;
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    background-color: transparent;
+    padding: 14px 18px;
+    outline: transparent;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 40px;
+  }
+  .sign-up-button {
+    height: 60px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.55;
+    text-transform: uppercase;
+    margin-bottom: 20.71px;
+  }
+  .privacy-text {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+}
+/* DESKTOP */
+@media (min-width: 1280px) {
+  .container {
+    gap: 60px;
+    min-width: 1280px;
+    width: 1280px;
+    padding: 0 100px;
+    display: flex;
+  }
+  .privacy-text {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+  }
+  .field-container {
+    max-width: 480px;
+  }
+  .picture-list {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+  }
+  .picture-block {
+    display: block;
+    max-width: 540px;
+  }
+  .signup-lens {
+    background-color: var(--c-primary);
+    border-radius: 1000px;
+    width: 180px;
+    height: 288px;
+    position: relative;
+  }
+  .lens-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-65%, -40%);
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+  }
+  .signup-nikon {
+    background-color: var(--c-background-light);
+    border-radius: 1000px;
+    width: 340px;
+    height: 540px;
+  }
+  .nikon-img {
+    margin-top: 139px;
+    margin-right: 48px;
+    margin-left: 48px;
+    margin-bottom: 88px;
+  }
+}
