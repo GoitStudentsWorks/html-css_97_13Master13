@@ -34,7 +34,6 @@
     margin-bottom: 20px;
 }
 
-
 /* !!!!!!! Tablet site !!!!!!!!! */
 
 @media screen and (min-width: 768px) {
@@ -67,10 +66,10 @@
     line-height: 1.25; 
     letter-spacing: -0.02em;
     }
-}
 
-.about-text:not(:last-child){
-    margin-bottom: 0px;
+    .about-text:not(:last-child){
+        margin-bottom: 0px;
+    }
 }
 
 /* !!!!!!!!!!  Desktop site !!!!!!!!!!!!   */
