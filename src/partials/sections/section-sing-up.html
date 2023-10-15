@@ -1,7 +1,9 @@
 <section class="section">
   <div class="sign-up container">
     <div class="field-container">
-      <h2 class="sign-up-title">Sign <span class="title-up">Up</span></h2>
+      <h2 class="sign-up-title" id="our-sign-up">
+        Sign <span class="title-up">Up</span>
+      </h2>
       <p class="sign-up-text">
         Please use the form below to contact us. Enter your name, email, and
         message and we'll get back to you shortly.
@@ -52,25 +54,44 @@
     <div class="picture-block">
       <ul class="picture-list">
         <li class="signup-lens">
-          <img
-            class="lens-img"
-            srcset="
-              /img/section-sing-up/lens.webp    1x,
-              /img/section-sing-up/lens@2x.webp 2x
-            "
-            alt="img-lens"
-          />
+          <picture>
+            <source
+              srcset="
+                /img/section-sing-up/lens.webp    1x,
+                /img/section-sing-up/lens@2x.webp 2x
+              "
+              media="(min-width: 1280px)"
+            />
+
+            <img
+              class="lens-img"
+              srcset="
+                /img/section-sing-up/lens.webp    1x,
+                /img/section-sing-up/lens@2x.webp 2x
+              "
+              alt="img-lens"
+            />
+          </picture>
         </li>
 
         <li class="signup-nikon">
-          <img
-            class="nikon-img"
-            srcset="
-              /img/section-sing-up/camera-nikon.webp    1x,
-              /img/section-sing-up/camera-nikon@2x.webp 2x
-            "
-            alt="img-camera-nikon"
-          />
+          <picture>
+            <source
+              srcset="
+                /img/section-sing-up/camera-nikon.webp    1x,
+                /img/section-sing-up/camera-nikon@2x.webp 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <img
+              class="nikon-img"
+              srcset="
+                /img/section-sing-up/camera-nikon.webp    1x,
+                /img/section-sing-up/camera-nikon@2x.webp 2x
+              "
+              alt="img-camera-nikon"
+            />
+          </picture>
         </li>
       </ul>
     </div>
