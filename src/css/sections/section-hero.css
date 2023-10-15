@@ -100,8 +100,13 @@
 
 @media screen and (min-width: 768px) {
 
+
+    .hero {
+        padding: 64px 0;
+    }
+
     .hero-additional {
-        padding-top: 64px;
+        padding: 64px 32px 0;
     }
     
     .hero-header {
@@ -120,7 +125,8 @@
     }
 
     .hero-student-review-wrap {
-        margin-bottom: 46px;
+        margin-bottom: 36px;
+        gap: 50px;
     }
 
     .hero-students-text {
@@ -138,10 +144,23 @@
         align-items: start;
         gap: 8px;
     }
+
+    .hero-students-li {
+        margin-left: -14px;
+    }
     
+    .hero-students-li:nth-child(2) {
+        margin-right: 1px;
+    }
+
     .hero-students-img {
         width: 55px;
         height: 55px;
+    }
+
+    .hero-arrow-svg {
+        width: 18px;
+        height: 9px;
     }
 
     .hero-star-svg {
@@ -168,15 +187,22 @@
     .hero-additional {
         display: flex;
         gap: 20px;
+        padding: 80px 50px 0;
     }
 
     .hero-header {
         font-size: 64px;
         font-weight: 500;
-        letter-spacing: -0.04em;
+        min-width: 560px;
     }
 
     .hero-text-info {
         margin-bottom: 136px;
     }
+
+    .hero-students-wrap {
+        gap: 10px;
+    }
+
+    
 }
