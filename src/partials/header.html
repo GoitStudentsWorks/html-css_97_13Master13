@@ -77,8 +77,11 @@
     </nav>
   </div>
   <div>
-    <img srcset="/img/section-about-us/camera.jpg"
-     alt="camera">
+    <picture>
+    <source media="(min-width: 768px)" srcset="/img/section-header/camera-header.jpg 1x, /img/section-header/camera-header@2x.jpg 2x" type="image/jpg"> 
+              <source media="(max-width: 767px)" srcset="/img/section-header/camera-header.jpg 1x, /img/section-header/camera-header@2x.jpg 2x" type="image/jpg"> 
+         <img class="hero-main-img" src="/src/img/section-header/camera-header.jpg" alt="camera-header"> 
+      </picture>
   </div>
 </div>
 </header>
