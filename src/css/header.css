@@ -55,6 +55,12 @@ background-color: #1D1D1D;
 
 /* TABLET */
 @media screen and (min-width: 768px) {
+
+  .header-container{
+    display: flex;
+    align-items: center;
+    
+  }
   .header-icon-camera{
     display: none;
   }
@@ -97,6 +103,8 @@ text-transform: uppercase;
 }
 
 @media screen and (min-width:1280px) {
+
+  
 
   .header-icon-burger{
     display: none;
