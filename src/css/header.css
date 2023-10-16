@@ -1,19 +1,17 @@
 /* MENU */
 
 .backdrop {
-  display: flex;
 background: var(--brown, #BEA69E);
-position: fixed;
+position: absolute;
 top: 0;
 right: 0;
 z-index: 999;
 width: 218px;
-height: 812px;
+height: 100%;
 }
 
 .modal {
-  display: flex;
-  position: absolute;
+  position: relative;
   max-width: 218px;
   max-height: 812px;
  overflow: auto;
@@ -24,11 +22,14 @@ padding:20px ;
 .menu-close-button{
   stroke: #121212;
   position: absolute;
-  top: 20;
-  right: 20;
+  top: 20px;
+  right: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 32px;
+  height: 32px;
+  background: var(--brown, #BEA69E);
 }
 
 .menu-content {
@@ -51,6 +52,14 @@ line-height: normal;
 text-transform: uppercase;
 }
 
+.header-nav-list-modal:not( :last-child) {
+  margin-bottom: 20px;
+}
+
+.header-nav-modal {
+  padding-top: 180px;
+  padding-left: 20px;
+}
 
 
 .header-nav,
@@ -152,8 +161,8 @@ background-color: #1D1D1D;
 
 @media screen and (min-width:1280px) {
 
-  
 
+  .backdrop,
   .header-icon-burger{
     display: none;
   }
