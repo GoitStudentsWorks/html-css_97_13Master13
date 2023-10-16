@@ -7,11 +7,31 @@
         </svg>
         <nav class="header-nav">
           <ul class="header-nav-up">
-            <li a href="#" class="header-nav-list">about us</li>
-            <li a href="#" class="header-nav-list">our courses</li>
-            <li a href="#" class="header-nav-list">our mentors</li>
-            <li a href="#" class="header-nav-list">reviews</li>
-            <li a href="#" class="header-nav-list">contacts</li>
+            <li class="header-nav-list"> 
+              <a href="#">
+                about us
+              </a>
+            </li> 
+            <li class="header-nav-list"> 
+              <a href="#">
+                our courses
+              </a>
+            </li>
+            <li class="header-nav-list"> 
+              <a href="#">
+                our mentors
+              </a>
+            </li> 
+            <li class="header-nav-list"> 
+              <a href="">
+                reviews
+              </a>
+            </li>
+            <li class="header-nav-list"> 
+              <a href="">
+                contacts
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -21,7 +41,7 @@
             <use href="/img/icons.svg#icon-camera"></use>
           </svg>
         </a>
-        <button class="header-button-nav">
+        <button class="header-button-nav data-modal-open">
           <svg class="header-icon-burger" width="32px" heigth="22px">
             <use href="/img/icons.svg#icon-burger"></use>
           </svg>
@@ -34,9 +54,9 @@
 <!-- MENU -->
 
 
-<div class="backdrop">
+<div class="backdrop data-modal" >
   <div class="modal">
-    <button class="menu-close-button">
+    <button class="menu-close-button data-modal-open" >
       <svg class="modal-lose-icon"
     aria-label="close icon"
     width="32"
@@ -80,7 +100,7 @@
     <picture>
     <source media="(min-width: 768px)" srcset="/img/section-header/camera-header.jpg 1x, /img/section-header/camera-header@2x.jpg 2x" type="image/jpg"> 
               <source media="(max-width: 767px)" srcset="/img/section-header/camera-header.jpg 1x, /img/section-header/camera-header@2x.jpg 2x" type="image/jpg"> 
-         <img class="hero-main-img" src="/src/img/section-header/camera-header.jpg" alt="camera-header"> 
+         <img class="header-modal-camera" src="/src/img/section-header/camera-header.jpg" alt="camera-header"> 
       </picture>
   </div>
 </div>
