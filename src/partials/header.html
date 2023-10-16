@@ -1,33 +1,61 @@
 <header class="header">
   <div class=" container">
     <div class="header-info">
-    <a class="header-logo" href="#">
-      <svg class="header-icon-logo" width="123" height="16">
-        <use href="/img/icons.svg#icon-logo"></use>
-      </svg>
-    </a>
-    <a class="header-arrow" href="#">
-      <svg class="header-icon-camera" width="16" height="16">
-        <use href="/img/icons.svg#icon-camera"></use>
-      </svg>
-    </a>
-    <a class="header-burger" href="#">
-      <svg class="header-icon-burger" width="32px" heigth="22px">
-        <use href="/img/icons.svg#icon-burger"></use>
-      </svg>
-    </a>
-    <nav class="header-nav">
-      <ul class="header-nav-up">
-        <li a href="#" class="header-nav-list">about us</li>
-        <li a href="#" class="header-nav-list">our courses</li>
-        <li a href="#" class="header-nav-list">our mentors</li>
-        <li a href="#" class="header-nav-list">reviews</li>
-        <li a href="#" class="header-nav-list">contacts</li>
-      </ul>
-    </nav>
+      <div class="header-info-nav">
+        <svg class="header-icon-logo" width="123" height="16">
+          <use href="/img/icons.svg#icon-logo"></use>
+        </svg>
+        <nav class="header-nav">
+          <ul class="header-nav-up">
+            <li a href="#" class="header-nav-list">about us</li>
+            <li a href="#" class="header-nav-list">our courses</li>
+            <li a href="#" class="header-nav-list">our mentors</li>
+            <li a href="#" class="header-nav-list">reviews</li>
+            <li a href="#" class="header-nav-list">contacts</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-info-icon">
+        <svg class="header-icon-camera" width="16" height="16">
+          <use href="/img/icons.svg#icon-camera"></use>
+        </svg>
+        <svg class="header-icon-burger" width="32px" heigth="22px">
+          <use href="/img/icons.svg#icon-burger"></use>
+        </svg>
+      </div>
+     </div>
+     <button class="header-button" type="button"><span class="header-button-text">sign up</span></button>
   </div>
-    <button class="header-button" type="button"><span class="header-button-text">sign up</span></button>
-  </div>
- 
 </header>
+
+<!-- MENU -->
+
+<div class="backdrop">
+    <div class="modal">
+      <button class="menu-close-button">
+        <svg class="modal-lose-icon"
+      aria-label="close icon"
+      width="32"
+      heidth="32">
+          <use href="/img/icons.svg#icon-close">
+          </use>
+        </svg>
+      </button>
+      <nav class="header-nav-modal">
+        <ul class="header-nav-up-modal">
+          <li a href="#" class="header-nav-list-modal"><span class="header-nav-list-modal-us">about us</span></li>
+          <li a href="#" class="header-nav-list-modal">our courses</li>
+          <li a href="#" class="header-nav-list-modal">our mentors</li>
+          <li a href="#" class="header-nav-list-modal">reviews</li>
+          <li a href="#" class="header-nav-list-modal">contacts</li>
+        </ul>
+      </nav>
+    </div>
+    <div>
+      <img srcset="/src/img/section-about-us/camera.jpg"
+       alt="camera">
+    </div>
+ </div>
+
+
 
