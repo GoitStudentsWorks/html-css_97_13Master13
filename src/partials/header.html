@@ -1,5 +1,5 @@
 <header class="header">
-  <div class=" container header-container">
+  <div class="container header-container">
     <div class="header-info">
       <div class="header-info-nav">
         <svg class="header-icon-logo" width="123" height="16">
@@ -7,105 +7,39 @@
         </svg>
         <nav class="header-nav">
           <ul class="header-nav-up">
-            <li class="header-nav-list"> 
-              <a href="#">
-                about us
-              </a>
-            </li> 
-            <li class="header-nav-list"> 
-              <a href="#">
-                our courses
-              </a>
+            <li class="header-nav-list">
+              <a href="#about-us"> about us </a>
             </li>
-            <li class="header-nav-list"> 
-              <a href="#">
-                our mentors
-              </a>
-            </li> 
-            <li class="header-nav-list"> 
-              <a href="">
-                reviews
-              </a>
+            <li class="header-nav-list">
+              <a href="#our-courses"> our courses </a>
             </li>
-            <li class="header-nav-list"> 
-              <a href="">
-                contacts
-              </a>
+            <li class="header-nav-list">
+              <a href="#our-mentors"> our mentors </a>
+            </li>
+            <li class="header-nav-list">
+              <a href="#reviews"> reviews </a>
+            </li>
+            <li class="header-nav-list">
+              <a href="#contacts"> contacts </a>
             </li>
           </ul>
         </nav>
       </div>
       <div class="header-info-icon">
-        <a href="#our-sign-up" class="header-icon-camera-a"> 
-          <svg class="header-icon-camera" width="16" height="16">
-            <use href="/img/icons.svg#icon-camera"></use>
-          </svg>
+        <a href="#our-sign-up" class="header-icon-camera-a">
+          <div class="header-icon-camera-container">
+            <svg class="header-icon-camera" width="16" height="16">
+              <use href="/img/icons.svg#icon-camera"></use>
+            </svg>
+          </div>
         </a>
-        <button class="header-button-nav data-modal-open">
+        <button class="header-button-nav" data-modal-open>
           <svg class="header-icon-burger" width="32px" heigth="22px">
             <use href="/img/icons.svg#icon-burger"></use>
           </svg>
         </button>
       </div>
-     </div>
-     <button class="header-button" type="button">sign up</button>
+    </div>
+    <button class="header-button" type="button">sign up</button>
   </div>
-
-<!-- MENU -->
-
-
-<div class="backdrop data-modal" >
-  <div class="modal">
-    <button class="menu-close-button data-modal-open" >
-      <svg class="modal-lose-icon"
-    aria-label="close icon"
-    width="32"
-    heidth="32">
-        <use href="/img/icons.svg#icon-close">
-        </use>
-      </svg>
-    </button>
-    <nav class="header-nav-modal">
-      <ul class="header-nav-up-modal">
-        <li class="header-nav-list-modal">
-          <a href="#" >
-            about us
-          </a>
-        </li> 
-        <li class="header-nav-list-modal">
-          <a href="#">
-            our courses
-          </a>
-        </li> 
-        <li class="header-nav-list-modal">
-          <a href="#" >
-            our mentors
-          </a>
-        </li>
-        <li class="header-nav-list-modal">
-          <a href="#" >
-            reviews
-          </a>
-        </li> 
-        <li class="header-nav-list-modal">
-          <a href="#" >
-            contacts
-          </a>
-        </li> 
-       
-      </ul>
-    </nav>
-  </div>
-  <div class="modal-camera">
-    <picture>
-    <source media="(min-width: 768px)" srcset="/img/section-header/camera-header.jpg 1x, /img/section-header/camera-header@2x.jpg 2x" type="image/jpg"> 
-              <source media="(max-width: 767px)" srcset="/img/section-header/camera-header.jpg 1x, /img/section-header/camera-header@2x.jpg 2x" type="image/jpg"> 
-         <img class="header-modal-camera" src="/src/img/section-header/camera-header.jpg" alt="camera-header"> 
-      </picture>
-  </div>
-</div>
 </header>
-
-
-
-
