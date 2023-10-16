@@ -49,13 +49,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.courses-link:hover {
+  background-color: var(--c-primary);
+}
+.courses-link:focus {
+  background-color: var(--c-primary);
 }
 .courses-svg {
   width: 20px;
   height: 20px;
   stroke: rgba(119, 119, 119, 1);
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.courses-svg:hover {
+  stroke: rgba(255, 255, 255, 1);
+}
+.courses-svg:focus {
+  stroke: rgba(255, 255, 255, 1);
+}
 .courses-link-name {
   font-size: 28px;
   font-weight: 500;
