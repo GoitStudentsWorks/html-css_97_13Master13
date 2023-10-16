@@ -1,0 +1,216 @@
+
+.hero-additional {
+    border-radius: 30px;
+    background-color: var(--c-background-light);
+    padding: 40px 20px 0;
+}
+
+.hero-desk-wrap {
+    margin-bottom: 31px;
+}
+
+.hero-header {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.012em;
+    margin-bottom: 20px;
+}
+
+.hero-header-accent {
+    color: var(--c-primary);
+    font-style: italic;
+    letter-spacing: -0.005em;
+}
+
+.hero-text-info {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.022em;
+    margin-bottom: 40px;
+}
+
+.hero-student-review-wrap {
+    display: flex;
+    gap: 40px;
+}
+
+.hero-students-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hero-students-flex {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.hero-students-list {
+    display: flex;
+    margin-bottom: 4px;
+    margin-left: 13px;
+}
+
+.hero-students-li {margin-left: -12px;}
+
+.hero-students-li:nth-child(1) {z-index: 20;}
+
+.hero-students-li:nth-child(2) {z-index: 10;}
+
+.hero-students-text {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.04em;
+    cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* .hero-students-text:hover,
+.hero-students-text:focus {
+    color: var(--c-primary);
+} */
+
+.hero-arrow-svg {fill: #FFF;}
+
+.hero-reviews-wrap {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.hero-reviews {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.04em;
+}
+
+.hero-number {
+    font-weight: 500;
+    line-height: 1.2857;
+    letter-spacing: -0.04em;
+    margin-top: 4px;
+}
+
+.hero-star-svg {
+    stroke: #121212;
+    fill: none;    
+    flex-shrink: 0;
+    background-color: var(--c-primary);
+    border-radius: 50%;
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+}
+
+.hero-main-img {margin: 0 auto;}
+
+@media screen and (min-width: 768px) {
+
+    .hero-additional {
+        padding: 64px 32px 0;
+    }
+    
+    .hero-header {
+        font-size: 60px;
+        line-height: 1.06;
+        letter-spacing: 0.01em;
+        max-width: 510px;
+    }
+
+    .hero-header-accent {
+        letter-spacing: -0.01em;
+    }
+
+    .hero-text-info {
+        max-width: 418px;
+    }
+
+    .hero-student-review-wrap {
+        margin-bottom: 36px;
+        gap: 50px;
+    }
+
+    .hero-students-text {
+        font-size: 16px;
+    }
+    
+    .hero-students-wrap {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    .hero-students-flex {
+        flex-direction: column;
+        align-items: start;
+        gap: 8px;
+    }
+
+    .hero-students-li {
+        margin-left: -14px;
+    }
+    
+    .hero-students-li:nth-child(2) {
+        margin-right: 1px;
+    }
+
+    .hero-students-img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .hero-arrow-svg {
+        width: 18px;
+        height: 9px;
+    }
+
+    .hero-star-svg {
+        padding: 15px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .hero-reviews {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: -0.04em;
+    }
+
+    .hero-number {
+        line-height: 1.25;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    
+    .hero-additional {
+        display: flex;
+        gap: 20px;
+        padding: 80px 50px 0;
+    }
+
+    .hero-desk-wrap {
+        margin-bottom: 0;
+    }
+
+    .hero-header {
+        font-size: 64px;
+        font-weight: 500;
+        min-width: 560px;
+    }
+
+    .hero-text-info {
+        margin-bottom: 136px;
+    }
+
+    .hero-students-wrap {
+        gap: 10px;
+    }
+
+    
+}
