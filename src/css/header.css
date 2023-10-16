@@ -1,6 +1,8 @@
 /* MENU */
 
 .backdrop {
+  display: flex;
+  flex-direction: column;
 background: var(--brown, #BEA69E);
 position: absolute;
 top: 0;
@@ -12,6 +14,7 @@ height: 100%;
 
 .modal {
   position: relative;
+  margin-bottom: auto;
 }
 
 
@@ -57,6 +60,9 @@ text-transform: uppercase;
   padding-left: 20px;
 }
 
+.modal-camera{
+
+}
 
 .header-nav,
 .header-button {
@@ -114,6 +120,15 @@ background-color: #1D1D1D;
 
 /* TABLET */
 @media screen and (min-width: 768px) {
+
+  .backdrop{
+    width: 480px;
+  }
+
+  .header-nav-modal {
+    padding-top: 232px;
+    padding-left: 64px;
+  }
 
   .header-container{
     display: flex;
@@ -222,4 +237,3 @@ align-items: flex-start;
     gap: 28px;
   }
 }
-
