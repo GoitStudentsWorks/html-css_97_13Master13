@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap');
 @import url('../../node_modules/modern-normalize/modern-normalize.css');
 @import url('./reset.css');
+@import url('./index.css');
 @import url('./header.css');
 @import url('./sections/section-hero.css');
 @import url('./sections/section-advertisement.css');
@@ -58,6 +59,8 @@ section {
 .none {
   display: none;
 }
+
+/* MEDIA */
 
 @media screen and (min-width: 768px) {
   section {
