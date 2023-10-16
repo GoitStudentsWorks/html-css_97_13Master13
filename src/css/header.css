@@ -59,7 +59,7 @@ background-color: #1D1D1D;
   .header-container{
     display: flex;
     align-items: center;
-    
+
   }
   .header-icon-camera{
     display: none;
@@ -69,7 +69,6 @@ background-color: #1D1D1D;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  width: 504px;
   height: 60px;
   flex-shrink: 0;
   border-radius: 12px;
@@ -82,24 +81,17 @@ background-color: #1D1D1D;
   }
 
   .header-button {
-  display: inline-flex;
-  padding: 16px 58px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    text-transform: uppercase;
+    width: 186px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.56;
   }
- 
-  .header-button-text{
-    color: #121212;
-font-family: DM Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 28px; /* 155.556% */
-text-transform: uppercase;
-
-  }
-
 }
 
 @media screen and (min-width:1280px) {
@@ -114,7 +106,6 @@ text-transform: uppercase;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  width: 822px;
   height: 60px;
   flex-shrink: 0;
   border-radius: 12px;
@@ -128,22 +119,21 @@ text-transform: uppercase;
   }
 
   .header-button {
+    width: 186px;
+    height: 60px;
     display: inline-flex;
-    padding: 16px 58px;
     justify-content: center;
     align-items: center;
     border-radius: 12px;
+    color: #121212;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    text-transform: uppercase;
   }
    
-  .header-button-text{
-   color: #121212;
-   font-family: DM Sans;
-   font-size: 18px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: 28px; /* 155.556% */
-   text-transform: uppercase;
-  }
 
   .header-nav-list {
     color: #FFF;
