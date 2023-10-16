@@ -63,10 +63,8 @@
   stroke: rgba(119, 119, 119, 1);
   transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.courses-svg:hover {
-  stroke: rgba(255, 255, 255, 1);
-}
-.courses-svg:focus {
+.courses-link:hover .courses-svg,
+.courses-link:focus .courses-svg {
   stroke: rgba(255, 255, 255, 1);
 }
 .courses-link-name {
