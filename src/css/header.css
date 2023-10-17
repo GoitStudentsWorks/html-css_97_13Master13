@@ -1,3 +1,7 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .backdrop {
   background: rgba(18, 18, 18, 0.4);
   position: fixed;
@@ -22,6 +26,10 @@
   display: flex;
   flex-direction: column;
   overflow-y: auto;
+  padding-top: 180px;
+}
+.modal-camera {
+  margin-top: 133px;
 }
 
 .modal {
@@ -37,6 +45,10 @@
 }
 .header-modal-camera {
   width: 100%;
+}
+
+.header-nav-modal {
+  padding-left: 20px;
 }
 .menu-close-button {
   stroke: #121212;
@@ -78,15 +90,15 @@
   margin-bottom: 20px;
 }
 
-.modal-lose-icon {
-  width: 32px;
-  height: 32px;
-}
 .header-nav,
 .header-button {
   display: none;
 }
 
+.modal-lose-icon {
+  width: 32px;
+  height: 32px;
+}
 .header-info {
   display: flex;
   align-items: center;
@@ -98,7 +110,6 @@
   background: var(--c-background);
   padding-left: 20px;
   padding-right: 20px;
-  margin-bottom: 20px;
 }
 
 .header-icon-logo {
@@ -167,15 +178,14 @@
   background-color: inherit;
 }
 
-.header-container {
-  margin-top: 20px;
-}
-
 /* TABLET */
 @media screen and (min-width: 768px) {
   .header-container {
     display: flex;
     justify-content: space-between;
+  }
+  .modal-camera {
+    margin-top: 114px;
   }
 
   .header-icon-camera-container {
@@ -190,11 +200,7 @@
     width: 480px;
   }
 
-  .modal-camera {
-    margin-top: 114px;
-  }
-
-  .modal {
+  .header-nav-modal {
     padding-left: 64px;
     padding-top: 232px;
     padding-right: 319px;
@@ -211,6 +217,9 @@
 
   .header-icon-camera {
     display: none;
+  }
+  .backdrop {
+    width: 480px;
   }
 
   .header-info {

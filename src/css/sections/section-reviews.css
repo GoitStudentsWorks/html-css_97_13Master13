@@ -42,7 +42,7 @@
   font-size: 12px;
   line-height: 1.14;
   letter-spacing: -0.02em;
-  padding-top: 4px;
+  margin-top: 4px;
 }
 .reviews-container-icon {
   margin-left: 66px;
@@ -88,7 +88,7 @@
   }
   .reviews-container-work {
     font-size: 14px;
-    padding-top: 8px;
+    margin-top: 8px;
   }
   .reviews-container-icon {
     margin-left: auto;
