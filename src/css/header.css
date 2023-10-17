@@ -32,12 +32,11 @@
   padding-right: 101px;
 }
 
-.modal-camera{
+.modal-camera {
   margin-top: 133px;
-
+}
 .header-modal-camera {
   width: 100%;
-
 }
 .menu-close-button {
   stroke: #121212;
@@ -79,10 +78,10 @@
   margin-bottom: 20px;
 }
 
-.modal-lose-icon{
+.modal-lose-icon {
   width: 32px;
   height: 32px;
-
+}
 .header-nav,
 .header-button {
   display: none;
@@ -183,34 +182,34 @@
     display: none;
   }
 
-  .modal-lose-icon{
+  .modal-lose-icon {
     width: 40px;
     height: 40px;
-
+  }
   .modal {
     width: 480px;
   }
 
-  .modal-camera{
+  .modal-camera {
     margin-top: 114px;
   }
 
-  .modal{
+  .modal {
     padding-left: 64px;
     padding-top: 232px;
     padding-right: 319px;
   }
 
-  .backdrop{
+  .backdrop {
     width: 480px;
   }
 
-  .header-container{
+  .header-container {
     display: flex;
     justify-content: space-between;
   }
-    
-   .header-icon-camera {
+
+  .header-icon-camera {
     display: none;
   }
 
