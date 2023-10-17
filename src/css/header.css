@@ -32,14 +32,6 @@
   margin-top: 133px;
 }
 
-.modal {
-  position: relative;
-  margin-bottom: auto;
-  padding-left: 20px;
-  padding-top: 180px;
-  padding-right: 101px;
-}
-
 .modal-camera {
   margin-top: 133px;
 }
@@ -111,7 +103,9 @@
   padding-left: 20px;
   padding-right: 20px;
 }
-
+.header-nav-up-modal {
+  padding-left: 20px;
+}
 .header-icon-logo {
   width: 127px;
   height: 20px;
@@ -202,8 +196,10 @@
 
   .header-nav-modal {
     padding-left: 64px;
+  }
+
+  .modal {
     padding-top: 232px;
-    padding-right: 319px;
   }
 
   .backdrop {
