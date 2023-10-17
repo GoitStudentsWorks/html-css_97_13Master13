@@ -28,7 +28,7 @@
   counter-increment: my-counter;
 }
 .courses-li {
-  padding: 28px;
+  padding: 27px;
   flex-shrink: 0;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -63,10 +63,8 @@
   stroke: rgba(119, 119, 119, 1);
   transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.courses-svg:hover {
-  stroke: rgba(255, 255, 255, 1);
-}
-.courses-svg:focus {
+.courses-link:hover .courses-svg,
+.courses-link:focus .courses-svg {
   stroke: rgba(255, 255, 255, 1);
 }
 .courses-link-name {
@@ -142,16 +140,7 @@
   .courses-link-name {
     margin-bottom: 180px;
   }
-}
-@media screen and (min-width: 1440px) {
-  .courses-text {
-    max-width: 565px;
-    width: 100%;
-  }
-  .courses-li {
-    width: calc((100% - 40px) / 3);
-  }
-  .courses-link-name {
-    margin-bottom: 200px;
+  .courses-link-text {
+    letter-spacing: -0.03em;
   }
 }

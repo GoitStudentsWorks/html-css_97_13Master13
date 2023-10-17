@@ -19,6 +19,64 @@
     <load ="partials/sections/section-sing-up.html" />
     <load ="partials/sections/section-reviews.html" />
     <load ="partials/footer.html" />
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="menu-close-button" data-modal-close>
+          <svg
+            class="modal-lose-icon"
+            aria-label="close icon"
+            width="32"
+            heidth="32"
+          >
+            <use href="/img/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="header-nav-modal">
+          <ul class="header-nav-up-modal">
+            <li class="header-nav-list-modal">
+              <a href="#about-us"> about us </a>
+            </li>
+            <li class="header-nav-list-modal">
+              <a href="#our-courses"> our courses </a>
+            </li>
+            <li class="header-nav-list-modal">
+              <a href="#our-mentors"> our mentors </a>
+            </li>
+            <li class="header-nav-list-modal">
+              <a href="#reviews"> reviews </a>
+            </li>
+            <li class="header-nav-list-modal">
+              <a href="#contacts"> contacts </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="modal-camera">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                /img/section-header/camera-header.jpg    1x,
+                /img/section-header/camera-header@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                /img/section-header/camera-header.jpg    1x,
+                /img/section-header/camera-header@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              class="header-modal-camera"
+              src="/src/img/section-header/camera-header.jpg"
+              alt="camera-header"
+            />
+          </picture>
+        </div>
+      </div>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
