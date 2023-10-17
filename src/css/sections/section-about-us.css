@@ -31,7 +31,7 @@
 }
 
 .about-text:not(:last-child){
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 /* !!!!!!! Tablet site !!!!!!!!! */
@@ -68,7 +68,7 @@
     }
 
     .about-text:not(:last-child){
-        margin-bottom: 0px;
+        padding-bottom: 0px;
     }
 }
 
