@@ -1,3 +1,7 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .backdrop {
   background: rgba(18, 18, 18, 0.4);
   position: fixed;
@@ -22,10 +26,18 @@
   display: flex;
   flex-direction: column;
   overflow-y: auto;
+  padding-top: 180px;
+}
+.modal-camera {
+  margin-top: 133px;
 }
 
 .header-modal-camera {
   width: 100%;
+}
+
+.header-nav-modal {
+  padding-left: 20px;
 }
 .menu-close-button {
   stroke: #121212;
@@ -35,8 +47,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 32px;
-  height: 32px;
   background: var(--c-primary);
 }
 
@@ -69,16 +79,15 @@
   margin-bottom: 20px;
 }
 
-.header-nav-modal {
-  padding-top: 180px;
-  padding-left: 20px;
-}
-
 .header-nav,
 .header-button {
   display: none;
 }
 
+.modal-lose-icon {
+  width: 32px;
+  height: 32px;
+}
 .header-info {
   display: flex;
   align-items: center;
@@ -90,7 +99,6 @@
   background: var(--c-background);
   padding-left: 20px;
   padding-right: 20px;
-  margin-bottom: 20px;
 }
 
 .header-icon-logo {
@@ -159,15 +167,14 @@
   background-color: inherit;
 }
 
-.header-container {
-  margin-top: 20px;
-}
-
 /* TABLET */
 @media screen and (min-width: 768px) {
   .header-container {
     display: flex;
     justify-content: space-between;
+  }
+  .modal-camera {
+    margin-top: 114px;
   }
 
   .header-icon-camera-container {
@@ -179,12 +186,14 @@
   }
 
   .header-nav-modal {
-    padding-top: 232px;
     padding-left: 64px;
   }
 
   .header-icon-camera {
     display: none;
+  }
+  .backdrop {
+    width: 480px;
   }
 
   .header-info {

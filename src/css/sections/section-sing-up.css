@@ -12,6 +12,10 @@
 .title-up {
   color: var(--c-primary);
 }
+
+.field-block {
+  padding-bottom: 8px;
+}
 .sign-up-text {
   font-size: 14px;
   line-height: 18px;
@@ -19,6 +23,7 @@
   padding-right: 40px;
   padding-bottom: 41px;
 }
+
 .sign-up-field {
   font-size: 14px;
   width: 100%;
@@ -29,7 +34,9 @@
   outline: transparent;
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-bottom: 8px;
+}
+.textarea-block {
+  padding-bottom: 40px;
 }
 .sign-up-textarea {
   width: 100%;
@@ -45,7 +52,6 @@
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-bottom: 40px;
 }
 .sign-up-button {
   width: 100%;
@@ -83,6 +89,8 @@
   .field-container {
     max-width: 480px;
   }
+  .field-block {
+  }
   .sign-up-title {
     font-size: 48px;
     line-height: 1.12;
@@ -105,7 +113,6 @@
     outline: transparent;
     background-color: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-bottom: 14px;
   }
   .sign-up-textarea {
     width: 100%;
@@ -121,7 +128,6 @@
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-bottom: 40px;
   }
   .sign-up-button {
     height: 60px;
@@ -230,8 +236,5 @@
     margin-right: 48px;
     margin-left: 48px;
     margin-bottom: 88px;
-  }
-  .sign-up-textarea {
-    margin-bottom: 36px;
   }
 }
