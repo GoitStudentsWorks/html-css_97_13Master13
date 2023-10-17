@@ -24,8 +24,20 @@
   overflow-y: auto;
 }
 
+.modal {
+  position: relative;
+  margin-bottom: auto;
+  padding-left: 20px;
+  padding-top: 180px;
+  padding-right: 101px;
+}
+
+.modal-camera{
+  margin-top: 133px;
+
 .header-modal-camera {
   width: 100%;
+
 }
 .menu-close-button {
   stroke: #121212;
@@ -35,8 +47,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 32px;
-  height: 32px;
   background: var(--c-primary);
 }
 
@@ -69,10 +79,9 @@
   margin-bottom: 20px;
 }
 
-.header-nav-modal {
-  padding-top: 180px;
-  padding-left: 20px;
-}
+.modal-lose-icon{
+  width: 32px;
+  height: 32px;
 
 .header-nav,
 .header-button {
@@ -174,16 +183,34 @@
     display: none;
   }
 
+  .modal-lose-icon{
+    width: 40px;
+    height: 40px;
+
   .modal {
     width: 480px;
   }
 
-  .header-nav-modal {
-    padding-top: 232px;
-    padding-left: 64px;
+  .modal-camera{
+    margin-top: 114px;
   }
 
-  .header-icon-camera {
+  .modal{
+    padding-left: 64px;
+    padding-top: 232px;
+    padding-right: 319px;
+  }
+
+  .backdrop{
+    width: 480px;
+  }
+
+  .header-container{
+    display: flex;
+    justify-content: space-between;
+  }
+    
+   .header-icon-camera {
     display: none;
   }
 
