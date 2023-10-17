@@ -1,8 +1,9 @@
 .footer {
   padding-top: 40px;
+  padding-bottom: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   background-image: url(/img/background-img.webp);
-  background-position: center;
+  background-position: top;
   background-size: 499px 880px;
 }
 .footer-logo-contact {
@@ -83,7 +84,6 @@
 .footer-wrapper-policy {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
 }
 .footer-text-policy-second {
   max-width: 116px;
@@ -92,7 +92,7 @@
 @media only screen and (min-width: 768px) {
   .footer {
     background-image: url(/img/background-img.webp);
-    background-position: center;
+    background-position: top;
     background-size: 768px 880px;
     padding-top: 50px;
   }
@@ -137,8 +137,8 @@
 @media only screen and (min-width: 1280px) {
   .footer {
     background-image: url(/img/background-img.webp);
-    background-position: center;
-    background-size: 1280px 880px;
+    background-position: top;
+    background-size: 1280px 796px; 
     padding-top: 46px;
   }
   .footer-logo-contact {
@@ -161,9 +161,8 @@
     margin-bottom: 50px;
   }
   .footer-input {
-    margin-right: 16px;
-    max-width: 216px;
-  }
+    min-width: 216px;
+  } 
   .footer-form {
     width: 292px;
   }
