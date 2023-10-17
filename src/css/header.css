@@ -32,6 +32,17 @@
   margin-top: 133px;
 }
 
+.modal {
+  position: relative;
+  margin-bottom: auto;
+  padding-left: 20px;
+  padding-top: 180px;
+  padding-right: 101px;
+}
+
+.modal-camera {
+  margin-top: 133px;
+}
 .header-modal-camera {
   width: 100%;
 }
@@ -181,12 +192,27 @@
     display: none;
   }
 
+  .modal-lose-icon {
+    width: 40px;
+    height: 40px;
+  }
   .modal {
     width: 480px;
   }
 
   .header-nav-modal {
     padding-left: 64px;
+    padding-top: 232px;
+    padding-right: 319px;
+  }
+
+  .backdrop {
+    width: 480px;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
   }
 
   .header-icon-camera {
