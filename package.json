@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/justdoit/",
+    "build": "vite build --base=/html-css_97_13Master13/",
     "preview": "vite preview"
   },
   "devDependencies": {
